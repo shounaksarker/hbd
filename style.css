@@ -124,6 +124,26 @@ background: #06031d;
     animation: sap 16s;
 }
 
+/* main page */
+
+
+.mainpage h3{
+    color: rgb(226, 102, 102);
+    margin-bottom: 100px;
+  }
+
+  .mainpage h4 span, h5 span{
+    color: aqua;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 110%
+  }
+  .mainpage h4{
+      line-height: 50px;
+  }
+
+  /* end */
+
 @font-face{
 font-family: bdayc;
 src: url(bdayc.ttf);
@@ -156,23 +176,10 @@ src: url(nam.ttf);
         animation: sap 20s;
         margin: 0 auto
     }
+    .mainpage h3{
+        margin-bottom: 50px;
+    }
   }
 
 
-  /* main page */
-
-
-  .mainpage h3{
-    color: rgb(226, 102, 102);
-    margin-bottom: 100px;
-  }
-
-  .mainpage h4 span, h5 span{
-    color: aqua;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 110%
-  }
-  .mainpage h4{
-      line-height: 50px;
-  }
+  
