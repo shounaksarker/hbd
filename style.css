@@ -1,0 +1,178 @@
+body{
+margin: 0;
+padding: 0;
+background: #06031d;
+}
+.imgg{
+    width: 200px;
+    height: auto;
+    animation: sap 10s;
+    margin: 0 auto
+}
+
+.bday{
+    margin-top: 8px;
+    text-align: center;
+    background: linear-gradient(180deg, #f80112 0%, #2602f5 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-family: bdayc;
+}
+.wi{
+    width: 100%;
+}
+.bday h1{
+    font-size: 80px;
+    text-align: center;
+}
+.bday h1 span:nth-child(1){
+    display: inline-block;
+    animation: animate 0.1s ease;
+}
+.bday h1 span:nth-child(2){
+    display: inline-block;
+    animation: animate 0.4s ease;
+}
+.bday h1 span:nth-child(3){
+    display: inline-block;
+    animation: animate 0.7s ease;
+}
+.bday h1 span:nth-child(4){
+    display: inline-block;
+    animation: animate 1s ease;
+}
+.bday h1 span:nth-child(5){
+    display: inline-block;
+    animation: animate 1.3s ease;
+}
+.bday h1 span:nth-child(6){
+    display: inline-block;
+    animation: animate 1.6s ease;
+}
+
+.name p{
+    display: inline-block;
+    animation: animate 1.8s;
+}
+
+.name2 p span:nth-child(1){
+    animation: animate 2s;
+}
+.name2 p span:nth-child(2){
+    animation: animate 2.2s;
+}
+.name2 p span:nth-child(3){
+    animation: animate 2.4s;
+}
+.name2 p span:nth-child(4){
+    animation: animate 2.6s;
+}
+.name2 p span:nth-child(5){
+    animation: animate 2.8s;
+}
+
+
+
+
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes sap {
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+ 
+.name, .name2{
+    margin-top: 6px;
+    text-align: center;
+    background: linear-gradient(180deg, #f80112 0%, #2602f5 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-size: 110px;
+}
+.name2{
+    font-size: 90px;
+}
+
+
+.bdayp{
+    font-family: bdayp;
+}
+.nam{
+    font-family: nam;
+}
+
+.love{
+    font-family: 'Kalam', cursive;
+    margin-top: 100px;
+    color: #a10270;
+    text-align: center;
+    animation: sap 16s;
+}
+
+@font-face{
+font-family: bdayc;
+src: url(bdayc.ttf);
+}
+@font-face{
+font-family: bdayp;
+src: url(bdayp.ttf);
+}
+@font-face{
+font-family: nam;
+src: url(nam.ttf);
+}
+
+
+@media screen and (max-width: 769px) {
+    .bday h1 {
+        font-size: 50px;
+    }
+
+    .name p{
+        font-size: 70px;
+    }
+
+    .name2 p{
+        font-size: 50px;
+    }
+    .imgg{
+        width: 200px;
+        height: auto;
+        animation: sap 20s;
+        margin: 0 auto
+    }
+  }
+
+
+  /* main page */
+
+
+  .mainpage h3{
+    color: rgb(226, 102, 102);
+    margin-bottom: 100px;
+  }
+
+  .mainpage h4 span, h5 span{
+    color: aqua;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 110%
+  }
+  .mainpage h4{
+      line-height: 50px;
+  }
